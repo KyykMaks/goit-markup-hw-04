@@ -367,10 +367,17 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .footer-social-media {
-  display: block;
-  margin-left: 50px;
+  display: flex ;
+  align-items: baseline;
+}
+.footer-logo-paragrah {
+  margin-right: 120px;
+}
+.paragrah-media {
+
 }
 /* portfolio */
 

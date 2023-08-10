@@ -69,10 +69,8 @@ p {
   color: var(--navyblue);
 }
 
-.menu:hover::before,
-.menu:hover::after,
-.menu:focus::before,
-.menu:focus::after {
+.menu-list::before,
+.menu-list::after {
   content: '';
   position: absolute;
   left: 0;

@@ -319,17 +319,19 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 .customers {
   display: flex;
   gap: 24px;
 }
-.customer-item {
+.customer-box {
   width: calc((100% - 120px) / 6);
   height: 88 px;
 }
 .main-customers {
-  fill: var(--lightslate);
+  fill: currentColor;
+  padding: 16px 32px;
 }
 .customers-items {
   color: var(--lightslate);

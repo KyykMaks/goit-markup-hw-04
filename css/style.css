@@ -291,15 +291,25 @@ p {
 }
 /* section our team icon */
 .section-media {
-}
-.section-icon-team .main-our-team {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 40px;
   height: 40px;
+}
+
+.main-our-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background-color: var(--iris);
+}
+
+
+.section-icon-team {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .main-our-team:hover {
   background-color: var(--success);

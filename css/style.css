@@ -360,7 +360,7 @@ p {
 }
 .main-customers {
   fill: currentColor;
-  padding: 16px 32px;
+  
 }
 .customers-items {
   color: var(--lightslate);

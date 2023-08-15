@@ -89,6 +89,9 @@ p {
 .menu:active{
   color: var(--ocean);
 }
+.menu.current
+{ color: var(--ocean);
+}
 .menu:hover::after,
 .menu:focus::after,
 .menu.current::after {
@@ -399,6 +402,7 @@ p {
 .icon-social-media {
   display: flex;
   gap: 16px;
+  padding: 0;
 }
 .footer-social {
   display: flex;
